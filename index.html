@@ -1,0 +1,1162 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Webtalk</title>
+
+	<meta name="language" content="en" />
+	<link rel="icon" href="favicon.ico">
+
+	<link rel="stylesheet" href="css/styles.css" />
+
+</head>
+
+<body>
+<!--//////////////////////////////////////////////// HEADER/////////////////////////////////////////////////////////////////-->
+
+<header role="banner" class="main-header clearfix">
+	<div class="header_wrapper clearfix">
+		<a href="" class="logo"><img src="images/logo.png" alt="Webtalk - Home" /></a>
+		<nav role="navigation" class="clearfix nav-wrapper">
+			<ul class="main-header_navigation clearfix">
+				<li class="go-pro-button first-level  hint hint--bottom hint--rounded" data-hint="Do More, Save More & Earn More...Go Pro Now!">
+					<span href=""  class="go-pro-link">Go Pro</span>
+				</li>
+				<!--the pro button in case the user is already a pro, initially hidden, uncomment to see it, but make sure to comment the previous one===============================================================================================-->
+				<!-- <li class="go-pro-button first-level">
+					<spanhref=""  class="go-pro-link already-pro"> Pro</span>
+				</li> -->
+				<!--===========================================================================================================-->
+				
+				<li class=" home-item first-level">
+					<a href="#" class="nav_home hint hint--bottom hint--rounded" data-hint="Home"></a>
+				</li>
+				
+				<li class="profile profile-item first-level dropdown-wrapper" data-dropdown="profile_dropdown">
+					<a href="#" class=" nav_profile hint hint--bottom hint--rounded dropdown-button" data-hint="My Profile"></a>
+					<div class="profile_dropdown hidden">
+						<ul class="">
+							<li><a href="" class="professional">Professional</a></li>
+							<li><a href="" class="personal">Personal</a></li>
+							<li class="rule"></li>
+						</ul>
+						<!--Here goes the second state of the profile dropdown which has images instead of icons
+						it is initially hidden, when u switch between states just remove the hidden class from here and add it
+						to the above state-->
+						<ul class="imgs-profile_dropdown hidden">
+							<li class="professional"><a href="" class="clearfix"><img src="images/avatar-mars.png" /><span>Professional</span></a></li>
+							<li class="personal"><a href="" class="clearfix"><img src="images/avatar-mars.png" /><span>Personal</span></a></li>
+							<li class="rule"></li>
+						</ul>
+					</div>
+				</li>
+				<li class="inbox  first-level inbox-item dropdown-wrapper" data-dropdown="inbox_dropdown">
+					<a href="#" class="nav_inbox hint hint--bottom hint--rounded dropdown-button" data-hint="Inbox"></a>
+					<div class="inbox_dropdown">
+						<header class="clearfix">
+							<span class="talkmail-icon">- Inbox</span>
+							<span class="compose-new-msg"><a href="">Compose new message</a></span>
+						</header>
+						<section class="messages">
+							<ul>
+								<li class="new-message">
+									<a href=""><img src="icons/avatar.png"/>
+										<h4>Esha Ghotkar</h4>
+										<p>has requested a recommendation</p>
+										<p class="smaller">about 3 hours ago</p>
+									</a>
+								</li>
+								<li>
+									<a href=""><img src="icons/avatar.png"/>
+										<h4>Esha Ghotkar</h4>
+										<p>has requested a recommendation</p>
+										<p class="smaller">about 3 hours ago</p>
+									</a>
+								</li>
+								<li>
+									<a href=""><img src="icons/avatar.png"/>
+										<h4>Esha Ghotkar</h4>
+										<p>has requested a recommendation</p>
+										<p class="smaller">about 3 hours ago</p>
+									</a>
+								</li>
+								<li class="new-message">
+									<a href=""><img src="icons/avatar.png"/>
+										<h4>Esha Ghotkar</h4>
+										<p>has requested a recommendation</p>
+										<p class="smaller">about 3 hours ago</p>
+									</a>
+								</li>
+								<li>
+									<a href=""><img src="icons/avatar.png"/>
+										<h4>Esha Ghotkar</h4>
+										<p>has requested a recommendation</p>
+										<p class="smaller">about 3 hours ago</p>
+									</a>
+								</li>
+								<li>
+									<a href=""><img src="icons/avatar.png"/>
+										<h4>Esha Ghotkar</h4>
+										<p>has requested a recommendation</p>
+										<p class="smaller">about 3 hours ago</p>
+									</a>
+								</li>
+								<li>
+									<a href=""><img src="icons/avatar.png"/>
+										<h4>Esha Ghotkar</h4>
+										<p>has requested a recommendation</p>
+										<p class="smaller">about 3 hours ago</p>
+									</a>
+								</li>
+								<li>
+									<a href=""><img src="icons/avatar.png"/>
+										<h4>Esha Ghotkar</h4>
+										<p>has requested a recommendation</p>
+										<p class="smaller">about 3 hours ago</p>
+									</a>
+								</li>
+								<li class="new-message">
+									<a href=""><img src="icons/avatar.png"/>
+										<h4>Esha Ghotkar</h4>
+										<p>has requested a recommendation</p>
+										<p class="smaller">about 3 hours ago</p>
+									</a>
+								</li>
+								<li class="new-message">
+									<a href=""><img src="icons/avatar.png"/>
+										<h4>Esha Ghotkar</h4>
+										<p>has requested a recommendation</p>
+										<p class="smaller">about 3 hours ago</p>
+									</a>
+								</li>
+							</ul>
+						</section>
+						<footer><a href="">See all mail</a></footer>
+					</div>
+				</li>
+				<li class="flag flag-item first-level dropdown-wrapper" data-dropdown="flag_dropdown">
+					<a href="#" class="nav_flag hint hint--bottom hint--rounded dropdown-button" data-hint="Notifications">
+						<span class="flag-tooltip">854</span>
+					</a>
+					<div class="flag_dropdown">
+						<section class="notifications">
+							<ul>
+								<li class="new-notification commission">
+									<a href="">
+										<img src="icons/avatar.png"/>
+										<p><span class="notification-username">Esha Ghotkar</span>
+										has requested a single recommendation and more text goes here</p>
+										<p class="smaller">about 3 hours ago</p>
+									</a>
+								</li>
+								<li class="superstar">
+									<a href="">
+										<img src="icons/avatar.png"/>
+										<p><span class="notification-username">Esha Ghotkar</span>
+										has requested a single recommendation and more text goes here</p>
+										<p class="smaller">about 3 hours ago</p>
+									</a>
+								</li>
+								<li class="new-notification affiliate"><a href="">
+										<img src="icons/avatar.png"/>
+										<p><span class="notification-username">Esha Ghotkar</span>
+										has requested a single recommendation and more text goes here</p>
+										<p class="smaller">about 3 hours ago</p>
+									</a>
+								</li>
+								<li class="heart"><a href="">
+										<img src="icons/avatar.png"/>
+										<p><span class="notification-username">Esha Ghotkar</span>
+										has requested a single recommendation and more text goes here</p>
+										<p class="smaller">about 3 hours ago</p>
+									</a>
+								</li>
+								<li class="member-referal"><a href="">
+										<img src="icons/avatar.png"/>
+										<p><span class="notification-username">Esha Ghotkar</span>
+										has requested a single recommendation and more text goes here</p>
+										<p class="smaller">about 3 hours ago</p>
+									</a>
+								</li>
+								<li class="superstar"><a href="">
+										<img src="icons/avatar.png"/>
+										<p><span class="notification-username">Esha Ghotkar</span>
+										has requested a single recommendation and more text goes here</p>
+										<p class="smaller">about 3 hours ago</p>
+									</a>
+								</li>
+								<li class="commission"><a href="">
+										<img src="icons/avatar.png"/>
+										<p><span class="notification-username">Esha Ghotkar</span>
+										has requested a single recommendation and more text goes here</p>
+										<p class="smaller">about 3 hours ago</p>
+									</a>
+								</li>
+							</ul>
+						</section>
+						<footer><a href="">See all notifications</a></footer>
+					</div>
+				</li>
+				<li class="find-connections-wrapper dropdown-wrapper ">
+					<a class="find-connections-button dropdown-button  hint hint--bottom hint--rounded"  data-hint="Find Friends">
+					</a>
+					<div class="find-connections-dropdown">
+						
+						<div class="accordion">
+								<div class="accordion-tab find-friends active-tab">
+									Find &amp; Invite Friends
+								</div>
+								<div class="invite-networks clearfix accordion-content">
+									<p class="invite-friends-tip">Find and invite friends using email address</p>
+									<ul class="networks clearfix">
+										<li><button href=""  class="gmail">Gmail</button></li>
+										<li><button href=""  class="hotmail">Hotmail</button></li>
+										<li><button href=""  class="yahoo">Yahoo</button></li>
+										<li><button href=""  class="aol">Aol</button></li>
+									</ul>
+									<div class="clearfix add-email">
+										<input type="text" class="input social-email" placeholder="Enter your e-mail address"/>
+										<button class="find-friends-button">+Find Friends</button>
+										
+									</div>
+								</div>
+							
+							<div class="accordion-tab quick-invite">
+								Quick Find / Invite <span class="tip">(Up to 5 individual contacts)</span>
+							</div>
+							<div class="accordion-content quick-invite-slidedown collapsed">
+								<div class="input-wrapper clearfix" style="width:350px;">
+									<div>
+										<input type="text" placeholder="Enter email address here.." class="email-address-input"/>
+										<a href="#" class="removeclass" style="margin-left:-4px;">&times;</a>
+									</div>
+								</div>
+								
+								<div class="button-wrapper clearfix">
+									<button class="add-button" role="button">+Add Another Email</button>
+									<button class="send-button" role="button">Send</button>
+								</div>
+							</div>
+							<div class="accordion-tab bulk-invite">
+								Upload CSV Contacts File
+							</div>
+							<div class="accordion-content csv-slidedown clearfix collapsed">
+								<div id="BrowserVisible1">
+									<input type="text" id="FileField1" />
+									<button class="browse-button" role="button"></button>
+								</div>
+								<input type="file" size=25 id="BrowserHidden1" class="csv-input" onchange="getElementById('FileField1').value = getElementById('BrowserHidden1').value;"/>
+								<button class="upload-button" role="button">Upload</button>
+							</div>
+							<div class="rule">
+								
+							</div>
+						</div>
+					</div>
+				
+				</li>
+			</ul>
+		</nav>
+		<div class="avatar-menu clearfix dropdown-wrapper">
+			<div class="avatar clearfix dropdown-button  hint hint--bottom hint--rounded" data-hint="My Account">
+				<img src="icons/avatar.png" />
+				<span class="avatar-arrow"></span>
+			</div>
+			<div class="avatar-dropdown">
+				<div class="avatar-image clearfix">
+					<img src="icons/gravatar.png" />
+					<h5><a href="">Marcelo Berto</a></h5>
+				</div>
+				<ul class="level-one-menu">
+					<li class="other-accounts"><a href="">Other Webtalk Accounts</a>
+						<ul class="avatar-submenu hidden">
+							<div class="scroll-menu clearfix">
+							<li><a href=""><img src="icons/dropdown-icon-pink.png"/></a><h5><a href="">Webtalk Design</a></h5><p>Webtalk Design Info</p></li>
+							<li><a href=""><img src="icons/dropdown-icon-blue.png"/></a><h5><a href="">Webtalk Design</a></h5><p>Webtalk Design Info</p></li>
+							<li><a href=""><img src="icons/dropdown-icon-blue.png"/></a><h5><a href="">Webtalk Design</a></h5><p>Webtalk Design Info</p></li>
+							<li><a href=""><img src="icons/dropdown-icon-pink.png"/></a><h5><a href="">Webtalk Design</a></h5><p>Webtalk Design Info</p></li>
+							<li><a href=""><img src="icons/dropdown-icon-blue.png"/></a><h5><a href="">Webtalk Design</a></h5><p>Webtalk Design Info</p></li>
+							<li><a href=""><img src="icons/dropdown-icon-blue.png"/></a><h5><a href="">Webtalk Design</a></h5><p>Webtalk Design Info</p></li>
+							<li><a href=""><img src="icons/dropdown-icon-blue.png"/></a><h5><a href="">Webtalk Design</a></h5><p>Webtalk Design Info</p></li>
+							</div>
+							<li class="create-page"><a href="">+ Create a Page</a></li>
+						
+						</ul>
+					</li>
+					<li class="create-page"><a href="">+ Create a Page</a></li>
+					<li class="my-account"><a href="">My Account</a></li>
+					<li class="affiliates"><a href="">My Affiliate Back Office</a></li>
+					<li class="logout"><a href="">Logout</a></li>
+				</ul>
+			</div>
+		</div>
+		<form class="search clearfix" role="Search">
+			<input type="search" class="search-input" placeholder="Search" />
+			<div class="search-dropdown">
+				<header class="people"><h4>People</h4></header>
+				<ul class="people-search-results">
+					<li>
+						<a href=""><img src="icons/adam-brown.png" /></a>
+						<a href="">Adam Brown</a>
+						<p>CEO at some company</p>
+					</li>
+					<li>
+						<a href=""><img src="icons/adam-brown.png" /></a>
+						<a href="">Adam Brown</a>
+						<p>CEO at some company</p>
+					</li>
+					<li>
+						<a href=""><img src="icons/adam-brown.png" /></a>
+						<a href="">Adam Brown</a>
+						<p>CEO at some company</p>
+					</li>
+					<li>
+						<a href=""><img src="icons/adam-brown.png" /></a>
+						<a href="">Adam Brown</a>
+						<p>CEO at some company</p>
+					</li>
+				</ul>
+				<header class="commercial"><h4>Commercial</h4></header>
+				<ul class="commercial-search-results">
+					<li>
+						<a href=""><img src="icons/adam-brown.png" /></a>
+						<a href="">Adam Brown</a>
+						<p>CEO at some company</p>
+					</li>
+					<li>
+						<a href=""><img src="icons/adam-brown.png" /></a>
+						<a href="">Adam Brown</a>
+						<p>CEO at some company</p>
+					</li>
+					<li>
+						<a href=""><img src="icons/adam-brown.png" /></a>
+						<a href="">Adam Brown</a>
+						<p>CEO at some company</p>
+					</li>
+					<li>
+						<a href=""><img src="icons/adam-brown.png" /></a>
+						<a href="">Adam Brown</a>
+						<p>CEO at some company</p>
+					</li>
+				</ul>
+				<footer><h5><a href="">See more results for Adam</a></h5><h5 class="info">Displaying top 8 results</h5></footer>
+			</div>
+			<span class="advanced-search-link"><a href="">Advanced</a></span>
+		</form>
+	
+		
+	</div>
+</header>
+<!--////////////////////////////// End Header ////////////////////////////////////////////////////////////////////////////-->
+<!--////////////////////////////////////NOTIFICATION BARS/////////////////////////////////////////////////////////////////-->
+<div class="notification-bar">
+	<div class="notification_wrapper">
+		What do I do now? - <a href="">Click here to get started with your Webtalk account</a>
+		<div class="close-notification-bar-icon">
+		</div>
+	</div>
+</div>
+<!-- <div class="another-account-bar">
+		You are posting, commenting, and liking as Marcelo Berta - <a href="">Change to [Commercial Page Name]</a>
+</div> -->
+<div class="body_wrapper clearfix">
+	<section role="main" class="main">
+		<!--//////////////////////////////////////////TALK BOX//////////////////////////////////////////////////////////////-->
+		<article class="talkbox clearfix">
+			<div class="default-textbox textbox">
+				<div class="add-photo-options clearfix hidden talkbox-photo-header talkbox-header">
+					<div class="upload-photo-button" id="BrowserVisible3">
+						<a href="">Upload a Photo<span class="tip">from any drive</span></a>
+					</div>
+					<input type="file" size=30 id="BrowserHidden3" class="csv-input" onchange="getElementById('FileField3').value = getElementById('BrowserHidden3').value;"/>
+
+					<div class="create-new-album-button"><a href="">Create New Album<span class="tip">organize many photos</span></a></div>
+				</div>
+				<div class="talkbox-video-header clearfix hidden talkbox-header">
+					<img src="icons/youtube-logo.png" style="margin-top:3px;" class="youtube-logo"/>
+					<input type="text" class="input video-link" placeholder="Place YouTube link here.."/>
+					<div class="question-mark-container">
+						<img src="icons/youtube-question-mark.png" class="question-mark"/>
+						<div class="youtube-tooltip hidden">
+							<p>Paste YouTube URL from:</p>
+							<p>1) Address bar on the page of the video ex: <span class="link">http://www.youtube.com/watch?v=1lBenpEjmjR</span></p>
+							<p>2) From the "Share" shortlink below the video on the page ex: <span class="link">http://youtu.be/1lBenpEjmjR</span></p>
+						</div>
+					</div>
+				</div>
+				<div class="talkbox-document-header clearfix hidden talkbox-header">
+					<img src="icons/doc-small.png"  style="float:left; margin-right:15px; margin-top:15px;"/>
+					<label for="attach">Attach a file: </label>
+					<div id="BrowserVisible2">
+						<input type="text" id="FileField2" />
+					</div>
+					<input type="file" size=25 id="BrowserHidden2" class="csv-input" onchange="getElementById('FileField2').value = getElementById('BrowserHidden2').value;"/>
+					<button class="button">Browse</button>
+				</div>
+				<textarea class="talkbox-textarea expanding" placeholder="Share your thoughts or links here.."></textarea>
+			</div>
+			<!-- <div class="photo-textbox  hidden textbox">
+				
+				<textarea class="talkbox-textarea expanding" placeholder="Talk about this photo..."></textarea>
+			</div>
+			<div class="video-textbox hidden textbox">
+				
+				<textarea class="talkbox-textarea expanding" placeholder="Talk about this video..."></textarea>
+			</div>
+			<div class="document-textbox  hidden textbox">
+				
+				<textarea class="talkbox-textarea expanding" placeholder="Talk about this attachment..."></textarea>
+			</div> -->
+			<footer class="talkbox-footer">
+				<ul class="clearfix">
+					<li class="hint hint--bottom hint--rounded textbox-link status-link" data-hint="Update Status" data-textbox="default-textbox"><a href=""  class="status"></a></li>
+					<li class="hint hint--bottom hint--rounded textbox-link" data-hint="Add Photos" data-textbox="talkbox-photo-header"><a href=""  class="images"></a></li>
+					<li class="hint hint--bottom hint--rounded textbox-link" data-hint="Add Videos" data-textbox="talkbox-video-header"><a href=""  class="videos"></a></li>
+					<li class="hint hint--bottom hint--rounded textbox-link" data-hint="Add Documents" data-textbox="talkbox-document-header"><a href=""  class="docs"></a></li>
+				</ul>
+				<button class="talk-button off" role="button"></button>
+				<div class="bucket-list clearfix dropdown-wrapper">
+					<div class="bucket-button dropdown-button">
+					</div>
+						<div class="bucket-dropdown">
+						<p class="post-to">Post To:</p>
+						<ul class="list-items">
+							<li class="professional" data-counter="0"><input type="checkbox" class="bucket-checkbox parent-checkbox professional" id="bucket-checkbox-1" checked="checked" /> <label for="bucket-checkbox-1">Professional</label><span class="arrow"></span></li>
+								<ul class="subclass hidden professional-subclass">
+
+									<li><input type="checkbox" class="bucket-checkbox child-checkbox" id="bucket-checkbox-1-1"  checked="checked" /> <label for="bucket-checkbox-1-1">Colleagues</label></li>
+
+									<li><input type="checkbox" class="bucket-checkbox child-checkbox" id="bucket-checkbox-1-2"  checked="checked" /> <label for="bucket-checkbox-1-2">Service Providers</label></li>
+
+									<li><input type="checkbox" class="bucket-checkbox child-checkbox" id="bucket-checkbox-1-3"  checked="checked" /> <label for="bucket-checkbox-1-3">Clients</label></li>
+
+									<li><input type="checkbox" class="bucket-checkbox child-checkbox" id="bucket-checkbox-1-4"  checked="checked" /> <label for="bucket-checkbox-1-4">Investors</label></li>
+
+									<li><input type="checkbox" class="bucket-checkbox child-checkbox" id="bucket-checkbox-1-5"  checked="checked" /> <label for="bucket-checkbox-1-5">Entrepreneurs</label></li>
+
+									<li><input type="checkbox" class="bucket-checkbox child-checkbox" id="bucket-checkbox-1-6"  checked="checked" /> <label for="bucket-checkbox-1-6">Acquaintances</label></li>
+
+								</ul>
+							<li class="personal"  data-counter="0"><input type="checkbox" class="bucket-checkbox  parent-checkbox personal" id="bucket-checkbox-2" /> <label for="bucket-checkbox-2">Personal</label><span class="arrow"></span></li>
+								<ul class="subclass hidden personal-subclass">
+									<li><input type="checkbox" class="bucket-checkbox child-checkbox" id="bucket-checkbox-2-1"/> <label for="bucket-checkbox-2-1">Friends</label></li>
+									<li><input type="checkbox" class="bucket-checkbox child-checkbox" id="bucket-checkbox-2-2"/> <label for="bucket-checkbox-2-2">Family</label></li>
+									<li><input type="checkbox" class="bucket-checkbox child-checkbox" id="bucket-checkbox-2-3"/> <label for="bucket-checkbox-2-3">Acquaintances</label></li>
+								</ul>
+							<li class="only-me"><input type="checkbox" class="bucket-checkbox only-me-checkbox" id="bucket-checkbox-3"/> <label for="bucket-checkbox-3">Only Me</li>
+							<li class="make-public"><input type="checkbox" class="bucket-checkbox make-public-checkbox" id="bucket-checkbox-5"/> <label for="bucket-checkbox-5">Make Public</label></li>
+							<li class="rule"></li>
+						</ul>
+					</div>
+					<p><span class="network-to-post-to bucket-label">Professional</span><span class="post-to">Post to:</span> </p>
+				</div>
+			</footer>
+		</article>
+		<!--/////////////////////////////////////////NEWS FEED WALL////////////////////////////////////////////////////////-->		
+		<section class="newsfeed clearfix">
+			<header class="newsfeed-menu clearfix">
+				<div class="network-type dropdown-wrapper">
+					<span class="dropdown-label dropdown-button"><span data-menu="feed-network-links">Network News</span></span>
+					<div class="news-dropdown">
+						<ul>
+							<li class="rule-upper"></li>
+							<li class="exchange-label"><span data-menu="feed-commercial-links">Commercial News</span></li>
+							<li class="rule"></li>
+						</ul>
+					</div>
+				</div>
+				<div class="gear-button dropdown-wrapper">
+					<button class="gear dropdown-button"></button>
+					<div class="gear-dropdown">
+						<ul class="gear-options">
+							<li class="most-recent"><a href="">Most Recent</a></li>
+							<li class="most-popular"><a href="">Most Popular</a></li>
+							<li class="hidden-msgs"><a href="">Hidden <span class="hidden-count">(90)</span></a></li>
+							<li class="rule"></li>
+						</ul>
+
+					</div>
+				</div>
+
+				<ul class="filter-feed-links clearfix feed-network-links">
+					<li><a href="">Personal</a> |</li>
+					<li><a href="">Professional</a> |</li>
+					<li><a href="">All News</a></li>
+				</ul>
+				<ul class="filter-feed-links clearfix feed-commercial-links hidden">
+					<li><a href="">Businesses</a> |</li>
+					<li><a href="">Entertainers</a> |</li>
+					<li><a href="">News Media</a></li>
+				</ul>
+			</header>
+			<!--////////////////////////////NEWSFEED BODY START //////////////////////////////////////////////////-->
+			<section class="newsfeed-body clearfix">
+				<article class="feed clearfix">
+					<div class="hide-menu clearfix">
+						<div class="x-box">
+						</div>
+						<div class="hide-menu-dropdown">
+								<ul>
+									<li><a href="">Hide this post</a></li>
+									<li><a href="">Hide this user</a></li>
+								</ul>
+						</div>
+					</div>
+					<div class="feed-avatar"><a href=""><img src="icons/gravatar.png" /></div>
+					<div class="feed-content">
+						<header>
+							<p class="meta"><a href="" class="username">Mr. Web</a> <span class="update"> added 3 new photos to the album <a href="">World Tour 2013</a></span></p>
+							<p class="info">Shots of the trip.. Enjoy! :)</p>
+						</header>
+						<section class="content">
+							<div class="carousel clearfix">
+								<a href=""><img src="images/sea.png" /></a>
+								<a href=""><img src="images/mountains.png" /></a>
+								<a href=""><img src="images/carr.png" /></a>
+								<a href=""><img src="images/sea.png" /></a>
+								<a href=""><img src="images/mountains.png" /></a>
+							</div>
+							<footer class="feed-footer" role="contentinfo">
+								<p class="meta photo">2 hours ago <a href="" class="like-link-up">Like</a> / <a href="" class="comment-link">Comment</a></p>
+								<div class="likes-count"><a href="" class="you">You</a> and <a href="" class="other-likes">7 others</a> like this</div>
+								<div class="comments-count"><a href="">View all 12,345 comments</a></div>
+								<figure class="comment clearfix"><a href=""><img src="images/avatar-mars.png" height="35" width="35" /></a><figcaption><a href="username">Mars Burta</a><p>Great pics, keep'em coming!</p><p class="meta">2 hours ago <a href="" class="like-link">Like</a> / <a href="" class="comment-link">Delete</a></p></figcaption></figure>
+								<figure class="comment clearfix"><a href=""><img src="images/avatar-mars.png" height="35" width="35" /></a><figcaption><a href="username">Mr. Web</a><p>More shots coming soon!</p><p class="meta">2 hours ago <a href="" class="like-link">Like</a> <a href="" class="countnb">100</a> / <a href="" class="comment-link">Delete</a></p></figcaption></figure>
+							</footer>
+						</section>	
+					</div>
+				</article>
+				<article class="feed clearfix">
+					<div class="hide-menu clearfix">
+						<div class="x-box">
+						</div>
+						<div class="hide-menu-dropdown">
+								<ul>
+									<li><a href="">Hide this post</a></li>
+									<li><a href="">Hide this user</a></li>
+								</ul>
+						</div>
+					</div>
+					<div class="feed-avatar"><a href=""><img src="icons/gravatar.png" /></div>
+					<div class="feed-content">
+						<header>
+							<p class="meta"><a href="" class="username">Mr. Web</a> <span class="update"> changed his profile picture</span></p>
+							<p class="info"></p>
+						</header>
+						<section class="content">
+							<footer class="feed-footer" role="contentinfo">
+								<p class="meta">just now <a href="" class="like-link-up">Like</a> / <a href="" class="comment-link">Comment</a></p>
+							</footer>
+						</section>	
+					</div>
+				</article>
+				<article class="feed clearfix">
+					<div class="hide-menu clearfix">
+						<div class="x-box">
+						</div>
+						<div class="hide-menu-dropdown">
+								<ul>
+									<li><a href="">Hide this post</a></li>
+									<li><a href="">Hide this user</a></li>
+								</ul>
+						</div>
+					</div>
+					<div class="feed-avatar"><a href=""><img src="icons/gravatar.png" /></div>
+					<div class="feed-content">
+						<header>
+							<p class="meta"><a href="" class="username">Mr. Web</a> <span class="update"> changed his profile picture</span></p>
+							<p class="info"></p>
+						</header>
+						<section class="content">
+							<footer class="feed-footer" role="contentinfo">
+								<p class="meta">just now <a href="" class="like-link-up">Like</a> / <a href="" class="comment-link">Comment</a></p>
+							</footer>
+						</section>	
+					</div>
+				</article>
+				<article class="feed clearfix">
+					<div class="hide-menu clearfix">
+						<div class="x-box">
+						</div>
+						<div class="hide-menu-dropdown">
+								<ul>
+									<li><a href="">Hide this post</a></li>
+									<li><a href="">Hide this user</a></li>
+								</ul>
+						</div>
+					</div>
+					<div class="feed-avatar"><a href=""><img src="icons/gravatar.png" /></div>
+					<div class="feed-content">
+						<header>
+							<p class="meta"><a href="" class="username">Mr. Web</a> <span class="update"> changed his profile picture</span></p>
+							<p class="info"></p>
+						</header>
+						<section class="content">
+							<footer class="feed-footer" role="contentinfo">
+								<p class="meta">just now <a href="" class="like-link-up">Like</a> / <a href="" class="comment-link">Comment</a></p>
+							</footer>
+						</section>	
+					</div>
+				</article>
+				<article class="feed clearfix">
+					<div class="hide-menu clearfix">
+						<div class="x-box">
+						</div>
+						<div class="hide-menu-dropdown">
+								<ul>
+									<li><a href="">Hide this post</a></li>
+									<li><a href="">Hide this user</a></li>
+								</ul>
+						</div>
+					</div>
+					<div class="feed-avatar"><a href=""><img src="icons/gravatar.png" /></a></div>
+					<div class="feed-content">
+						<header>
+							<p class="meta"><a href="" class="username">Mr. Web</a> <span class="update"> </span></p>
+							<p class="info">Lock your door from your iPhone and other stuff</p>
+						</header>
+						<section class="content">
+							<div class="link-content clearfix">
+								<a href="" class="the-link">http://lockitron.com/preorder</a></p>
+								<figure class="the-link-preview">
+									<a href=""><img src="images/iphone.png" class="preview-image" /></a>
+									<figcaption>
+										<h5><a href="">Lockitron</a></h5>
+										<p class="domain"><a href="">lockitron.com</a></p>
+										<p class="description">Any smartphone can use lockitron through its intuitive two-button app.With lockitron u can instantly share access with your family and friends.</p>
+									</figcaption>
+								</figure>
+							</div>
+							<footer class="feed-footer" role="contentinfo">
+								<p class="meta link">just now <a href="" class="like-link-up">Like</a> / <a href="" class="comment-link">Comment</a></p>
+								<div class="likes-count"><a href="" class="you">You</a> and <a href="" class="other-likes">7 others</a> like this</div>
+								<div class="comments-count"><a href="">View all 12,345 comments</a></div>
+							</footer>
+						</section>	
+					</div>
+				</article>
+				<article class="feed clearfix own-feed">
+					<div class="hide-menu clearfix">
+						<div class="x-box">
+						</div>
+						<div class="hide-menu-dropdown">
+								<ul>
+									<li><a href="">Delete this post</a></li>
+								</ul>
+						</div>
+					</div>
+					<div class="feed-avatar"><a href=""><img src="images/debra-web-avatar.png" /></a></div>
+					<div class="feed-content">
+						<header>
+							<p class="meta"><a href="" class="username">Debra Web</a> <span class="update"> </span></p>
+							<p class="info">Lock your door from your iPhone and other stuff</p>
+						</header>
+						<section class="content">
+							<div class="link-content clearfix">
+								<a href="" class="the-link">http://lockitron.com/preorder</a></p>
+								<figure class="the-link-preview">
+									<a href=""><img src="images/iphone.png" class="preview-image" /></a>
+									<figcaption>
+										<h5><a href="">Lockitron</a></h5>
+										<p class="domain"><a href="">lockitron.com</a></p>
+										<p class="description">Any smartphone can use lockitron through its intuitive two-button app.With lockitron u can instantly share access with your family and friends.</p>
+									</figcaption>
+								</figure>
+							</div>
+							<footer class="feed-footer" role="contentinfo">
+								<p class="meta link">12 minutes ago <a href="" class="like-link-up">Like</a> / <a href="" class="comment-link">Comment</a></p>
+								<div class="likes-count"><a href="" class="you">You</a> and <a href="" class="other-likes">7 others</a> like this</div>
+								<div class="comments-count"><a href="">View all 12,345 comments</a></div>
+							</footer>
+						</section>	
+					</div>
+				</article>
+				<article class="feed clearfix own-feed">
+					<div class="hide-menu clearfix">
+						<div class="x-box">
+						</div>
+						<div class="hide-menu-dropdown">
+								<ul>
+									<li><a href="">Delete this post</a></li>
+								</ul>
+						</div>
+					</div>
+					<div class="feed-avatar"><a href=""><img src="images/debra-web-avatar.png" /></a></div>
+					<div class="feed-content">
+						<header>
+							<p class="meta"><a href="" class="username">Debra Web</a> <span class="update"> </span></p>
+							<p class="info">Lock your door from your iPhone and other stuff</p>
+						</header>
+						<section class="content">
+							<div class="video-content clearfix">
+								<figure class="the-video-preview">
+									<a href=""><img src="images/shark.png" class="preview-image" /></a>
+									<figcaption>
+										<h5><a href="">The best trip of my life - I caught a big white shark</a></h5>
+										<p class="domain"><a href="">lockitron.com</a></p>
+										<p class="description">Any smartphone can use lockitron through its intuitive two-button app.With lockitron u can instantly share access with your family and friends.</p>
+									</figcaption>
+								</figure>
+							</div>
+							<footer class="feed-footer" role="contentinfo">
+								<p class="meta video">1 days ago <a href="" class="like-link-up">Like</a> / <a href="" class="comment-link">Comment</a></p>
+								<div class="likes-count"><a href="" class="you">You</a> and <a href="" class="other-likes">7 others</a> like this</div>
+								<!-- <div class="comments-count"><a href="">View all 12,345 comments</a></div> -->
+								<figure class="comment clearfix"><a href=""><img src="images/avatar-mars.png" height="35" width="35" /></a><figcaption><a href="username">Mars Burta</a><p>Great pics, keep'em coming!</p><p class="meta">2 hours ago <a href="" class="like-link">Like</a> / <a href="" class="comment-link">Delete</a></p></figcaption></figure>
+								<figure class="comment clearfix"><a href=""><img src="images/avatar-mars.png" height="35" width="35" /></a><figcaption><a href="username">Mr. Web</a><p>More shots coming soon!</p><p class="meta">2 hours ago <a href="" class="like-link">Like</a> <a href="" class="countnb">100</a> / <a href="" class="comment-link">Delete</a></p></figcaption></figure>
+							</footer>
+						</section>	
+					</div>
+				</article>
+				<article class="feed clearfix own-feed">
+					<div class="hide-menu clearfix">
+						<div class="x-box">
+						</div>
+						<div class="hide-menu-dropdown">
+								<ul>
+									<li><a href="">Delete this post</a></li>
+								</ul>
+						</div>
+					</div>
+					<div class="feed-avatar"><a href=""><img src="images/debra-web-avatar.png" /></a></div>
+					<div class="feed-content">
+						<header>
+							<p class="meta"><a href="" class="username">Debra Web</a> <span class="update"> </span></p>
+							<p class="info">Team make sure you understand the new CSS structure for Webtalk. Team make sure you understand the new CSS structure for Webtalk.</p>
+						</header>
+						<section class="content">
+							<div class="doc-content clearfix">
+								<figure class="the-doc-preview">
+									<a href=""><div class="preview-image"></div></a>
+									<figcaption>
+										<h5><a href="">Lockitron</a></h5>
+										<p class="domain">lockitron.com</p>
+										<p class="description">Any smartphone can use lockitron through its intuitive two-button app.With lockitron u can instantly share access with your family and friends.</p>
+									</figcaption>
+								</figure>
+							</div>
+							<footer class="feed-footer" role="contentinfo">
+								<p class="meta doc">2 days ago <a href="" class="like-link-up">Like</a> / <a href="" class="comment-link">Comment</a></p>
+								<div class="likes-count"><a href="" class="you">You</a> and <a href="" class="other-likes">7 others</a> like this</div>
+							</footer>
+						</section>	
+					</div>
+				</article>
+				<div class="feed-loading-image">
+					<img src="images/ajax-loader.gif" style="text-align:center;"/>
+				</div>
+			</section>
+		</section>
+	</section>
+	<aside role="aside" role="complementary" class="main-sidebar">
+	<div class="deal-wrapper">
+		<div class="widget notifications-widget" >
+			<header class="aside-widget-header">
+				<ul>
+					<li class="widget-title" data-widget="requests"><a href="" class="link-with-tooltip">Requests <span class="tooltip">197</span></a></li>
+					<li class="widget-title" data-widget="recommendations"><a href="" class="link-with-tooltip">Recommendations <span class="tooltip">12</span></a></li>
+					<li class="last-list-item widget-title"  data-widget="birthdays"><a href="" class="link-with-tooltip">Birthdays <span class="tooltip">1</span></a></li>
+				</ul>
+			</header>
+			<section class="widget-body default switch-widget">
+				<p class="tip">Use your email to locate people you know on Webtalk</p>
+				<p class="email-label">E-mail Address</p>
+				<input type="text" class="find-friend-by-email"  placeholder="Enter your e-mail address"/>
+				<button class="find-friend-button" > +Find Friends</button>
+			</section>
+			<section class="widget-body requests hidden switch-widget">
+				<article class="single-request">
+					<div class="container">
+						<figure class="request-meta clearfix">
+							<a href=""><img src="icons/avatar.png" /></a>
+							<figcaption>
+								<h5><a href="">Emily Meyers</a></h5>
+								<h6>CEO at Homemakers.com</h6>
+							</figcaption>		
+						</figure>
+						<p>Would like to be added to your:</p>
+					</div>
+					<footer class="middle">
+						<span class="network-type type-professional">Professional Network</span>
+						<button role="button" class="not-now-button">Not Now</button>
+						<button role="button" class="accept-button">Accept</button>
+					</footer>
+					<footer>
+						<span class="network-type type-personal">Personal Network</span>
+						<button role="button" class="not-now-button">Not Now</button>
+						<button role="button" class="accept-button">Accept</button>
+					</footer>
+				</article>
+				<article class="single-request">
+					<div class="container">
+						<figure class="request-meta clearfix">
+							<a href=""><img src="icons/avatar.png" /></a>
+							<figcaption>
+								<h5><a href="">Emily Meyers</a></h5>
+								<h6>CEO at Homemakers.com</h6>
+							</figcaption>		
+						</figure>
+						<p>Would like to be added to your:</p>
+					</div>
+					<footer>
+						<span class="network-type type-professional">Professional Network</span>
+						<button role="button" class="not-now-button">Not Now</button>
+						<button role="button" class="accept-button">Accept</button>
+					</footer>
+				</article>
+				<article class="single-request">
+					<div class="container">
+						<figure class="request-meta clearfix">
+							<a href=""><img src="icons/avatar.png" /></a>
+							<figcaption>
+								<h5><a href="">Tom Jones</a></h5>
+								<h6>Owner of Tileworld.com</h6>
+							</figcaption>		
+						</figure>
+						<p>Would like to be added to your:</p>
+					</div>
+					<footer>
+						<span class="network-type type-personal">Personal Network</span>
+						<button role="button" class="not-now-button">Not Now</button>
+						<button role="button" class="accept-button">Accept</button>
+					</footer>
+				</article>
+				<article class="single-request">
+					<div class="container">
+						<figure class="request-meta clearfix">
+							<a href=""><img src="icons/avatar.png" /></a>
+							<figcaption>
+								<h5><a href="">Emily Meyers</a></h5>
+								<h6>CEO at Homemakers.com</h6>
+							</figcaption>		
+						</figure>
+						<p>Would like to be added to your:</p>
+					</div>
+					<footer>
+						<span class="network-type type-professional">Professional Network</span>
+						<button role="button" class="not-now-button">Not Now</button>
+						<button role="button" class="accept-button">Accept</button>
+					</footer>
+				</article>
+			</section>
+
+			<section class="widget-body recommendations hidden switch-widget">
+
+				<article class="single-recommendation">
+					<div class="container">
+						<figure class="recommendation-meta clearfix">
+							<a href=""><img src="icons/avatar.png" /></a>
+							<figcaption>
+								<h5><a href="">Emily Meyers</a></h5>
+								<p>I pretty much think that I would like to say that working with your has been.. <a href="" class="read-more">read more</a></p>
+							</figcaption>		
+						</figure>
+					</div>
+					<footer class="clearfix">
+						<button role="button" class="not-now-button">Not Now</button>
+						<button role="button" class="accept-button">Accept</button>
+					</footer>
+				</article>
+				<article class="single-recommendation">
+					<div class="container">
+						<figure class="recommendation-meta clearfix">
+							<a href=""><img src="icons/avatar.png" /></a>
+							<figcaption>
+								<h5><a href="">Tom Jones</a></h5>
+								<p>I pretty much think that I would like to say that working with your has been.. <a href="" class="read-more">read more</a></p>
+							</figcaption>		
+						</figure>
+					</div>
+					<footer class="clearfix">
+						<button role="button" class="not-now-button">Not Now</button>
+						<button role="button" class="accept-button">Accept</button>
+					</footer>
+				</article>
+				<article class="single-recommendation">
+					<div class="container">
+						<figure class="recommendation-meta clearfix">
+							<a href=""><img src="icons/avatar.png" /></a>
+							<figcaption>
+								<h5><a href="">Tom Jones</a></h5>
+								<p>I pretty much think that I would like to say that working with your has been.. <a href="" class="read-more">read more</a></p>
+							</figcaption>		
+						</figure>
+					</div>
+					<footer class="clearfix">
+						<button role="button" class="not-now-button">Not Now</button>
+						<button role="button" class="accept-button">Accept</button>
+					</footer>
+				</article>
+				<article class="single-recommendation">
+					<div class="container">
+						<figure class="recommendation-meta clearfix">
+							<a href=""><img src="icons/avatar.png" /></a>
+							<figcaption>
+								<h5><a href="">Tom Jones</a></h5>
+								<p>I pretty much think that I would like to say that working with your has been.. <a href="" class="read-more">read more</a></p>
+							</figcaption>		
+						</figure>
+					</div>
+					<footer class="clearfix">
+						<button role="button" class="not-now-button">Not Now</button>
+						<button role="button" class="accept-button">Accept</button>
+					</footer>
+				</article>
+				<article class="single-recommendation">
+					<div class="container">
+						<figure class="recommendation-meta clearfix">
+							<a href=""><img src="icons/avatar.png" /></a>
+							<figcaption>
+								<h5><a href="">Emily Meyers</a></h5>
+								<p>I pretty much think that I would like to say that working with your has been.. <a href="" class="read-more">read more</a></p>
+							</figcaption>		
+						</figure>
+					</div>
+					<footer class="clearfix">
+						<button role="button" class="not-now-button">Not Now</button>
+						<button role="button" class="accept-button">Accept</button>
+					</footer>
+				</article>
+			</section>
+
+			<!--/////////////Bithdays Widget///////////////////////////////////-->
+			<section class="widget-body birthdays hidden switch-widget">
+				<article class="single-birthday today">
+					<div class="container">
+						<figure class="birthday-meta clearfix">
+							<a href=""><img src="icons/birthday-avatar.png" /></a>
+							<figcaption>
+								<h5><a href="">Emily Meyers</a></h5>
+								<p>It's her birthday today!</p>
+							</figcaption>		
+						</figure>
+					</div>
+					<footer class="clearfix">
+						<a href="" class="send-bd-msg">send her a message</a>
+					</footer>
+				</article>
+				<article class="single-birthday">
+					<div class="container">
+						<figure class="birthday-meta clearfix  premium">
+							<a href=""><img src="icons/birthday-avatar.png" /></a>
+							<figcaption>
+								<h5><a href="">Tom Jones</a></h5>
+								<p>It's his birthday tomorrow</p>
+							</figcaption>		
+						</figure>
+					</div>
+					<footer class="clearfix">
+						<a href="" class="send-bd-msg">send her a message</a>
+					</footer>
+				</article>
+				<article class="single-birthday">
+					<div class="container">
+						<figure class="birthday-meta clearfix">
+							<a href=""><img src="icons/birthday-avatar.png" /></a>
+							<figcaption>
+								<h5><a href="">Tom Jones</a></h5>
+								<p>It's his birthday tomorrow</p>
+							</figcaption>		
+						</figure>
+					</div>
+					<footer class="clearfix">
+						<a href="" class="send-bd-msg">send her a message</a>
+					</footer>
+				</article>
+				<article class="single-birthday">
+					<div class="container">
+						<figure class="birthday-meta clearfix">
+							<a href=""><img src="icons/birthday-avatar.png" /></a>
+							<figcaption>
+								<h5><a href="">Tom Jones</a></h5>
+								<p>It's his birthday tomorrow</p>
+							</figcaption>		
+						</figure>
+					</div>
+					<footer class="clearfix">
+						<a href="" class="send-bd-msg">send her a message</a>
+					</footer>
+				</article>
+				</div>
+			</section>
+
+		<div class="widget deals-widget" >
+			<header class="aside-widget-header">
+				<img src="icons/webtalk-s.png" />
+			</header>
+			<section class="widget-body">
+				<div class="deal-wrapper travel">
+					<figure>
+						<a href=""><img src="images/travel.jpg" height="80" width="120" /></a>
+						<figcaption><p>Save up to 90% on vacation packages</p><button class="details-button">Details</button></figcaption>
+					</figure>
+				</div>
+				<div class="deal-wrapper local">
+				<figure>
+					<a href=""><img src="images/local.jpg" height="80" width="120" /></a>
+					<figcaption><p>Save up to 90% on restaurants and more</p><button class="details-button">Details</button></figcaption>
+				</figure>
+				</div>
+				<div class="deal-wrapper internet">
+					<figure>
+						<a href=""><img src="images/internet.jpg" height="80" width="120" /></a>
+						<figcaption><p>Save up to 90% on name brands from top retailers</p><button class="details-button">Details</button></figcaption>
+					</figure>
+				</div>
+			</section>
+		</div>
+
+		<div class="widget people-you-may-know" >
+			<header class="aside-widget-header">
+				<p>People you may know
+				<a href="" class="see-more-link">See more</a></p>
+			</header>
+			<section class="widget-body">
+				<article class="friend clearfix">
+					<div class="container clearfix">
+						<span class="remove-friend-button"></span>
+						<figure class="friend-meta clearfix">
+							<a href=""><img src="icons/people-u-may-know-wavatar.png" /></a>
+							<figcaption>
+								<h5><a href="">Rajendra Pratap Gupta</a></h5>
+								<h6>CEO Business Instincts Group and Co-Founder at Podium Participation Funds</h6>
+							</figcaption>
+						</figure>
+					</div>
+						<footer class="clearfix">
+							<button class="send-talkmail-button friend-button"><span class="talkmail">Send Talkmail</span></button>
+							<button class="add-as-connection-button friend-button"><span class="connection">Add as Connection</span></button>
+						</footer>	
+				</article>
+				<article class="friend clearfix">
+					<div class="container clearfix">
+						<span class="remove-friend-button"></span>
+						<figure class="friend-meta clearfix">
+							<a href=""><img src="icons/people-u-may-know-wavatar.png" /></a>
+							<figcaption>
+								<h5><a href="">Rajendra Pratap Gupta</a></h5>
+								<h6>CEO Business Instincts Group and Co-Founder at Podium Participation Funds</h6>
+							</figcaption>
+						</figure>
+					</div>
+						<footer class="clearfix">
+							<button class="send-talkmail-button friend-button"><span class="talkmail">Send Talkmail</span></button>
+							<button class="add-as-connection-button friend-button"><span class="connection">Add as Connection</span></button>
+						</footer>	
+				</article>
+				<article class="friend clearfix">
+					<div class="container clearfix">
+						<span class="remove-friend-button"></span>
+						<figure class="friend-meta clearfix">
+							<a href=""><img src="icons/people-u-may-know-wavatar.png" /></a>
+							<figcaption>
+								<h5><a href="">Rajendra Pratap Gupta</a></h5>
+								<h6>CEO Business Instincts Group and Co-Founder at Podium Participation Funds</h6>
+							</figcaption>
+						</figure>
+					</div>
+						<footer class="clearfix">
+							<button class="send-talkmail-button friend-button"><span class="talkmail">Send Talkmail</span></button>
+							<button class="add-as-connection-button friend-button"><span class="connection">Add as Connection</span></button>
+						</footer>	
+				</article>
+			</section>
+		</div>
+
+		<div class="widget views-widget" >
+			<header class="aside-widget-header">
+				<p>Who's Viewed Your Profile?</p>
+			</header>
+			<section class="widget-body">
+				<div class="stats clearfix">
+					<div class="counter"><a href="">1234</a></div>
+					<p><a href="">Your profile has been viewed by 12 people in the past 90 days</a></p>
+				</div>
+				<div class="stats clearfix">
+					<div class="counter">12</div>
+					<p>Your have shown up in search results 24 times in the past 90 days</p>
+				</div>
+			</section>
+		</div>
+
+		<div class="widget" >
+			<header class="aside-widget-header">
+				<p>Your Professional Connections</p>
+			</header>
+			<section class="widget-body">
+				<div class="stats clearfix">
+					<div class="counter">1234</div>
+					<p><span class="bolder">Professionals</span> connect you to 48+ professionals</p>
+				</div>
+				<div class="stats clearfix">
+					<div class="counter">12</div>
+					<p><span class="bolder">New professionals</span> in your network since April 1st</p>
+				</div>
+			</section>
+		</div>
+		<div class="widget deals-widget sticky">
+			<header class="aside-widget-header">
+				<img src="icons/webtalk-s.png" />
+			</header>
+				<section class="widget-body">
+					<div class="deal-wrapper travel">
+						<figure>
+							<a href=""><img src="images/travel.jpg" height="80" width="120" /></a>
+							<figcaption><p>Save up to 90% on vacation packages</p><button class="details-button">Details</button></figcaption>
+						</figure>
+					</div>
+					<div class="deal-wrapper local">
+					<figure>
+						<a href=""><img src="images/local.jpg" height="80" width="120" /></a>
+						<figcaption><p>Save up to 90% on restaurants and more</p><button class="details-button">Details</button></figcaption>
+					</figure>
+					</div>
+					<div class="deal-wrapper internet">
+						<figure>
+							<a href=""><img src="images/internet.jpg" height="80" width="120" /></a>
+							<figcaption><p>Save up to 90% on name brands from top retailers</p><button class="details-button">Details</button></figcaption>
+						</figure>
+					</div>
+				</section>
+			</div>
+		</div>
+		<footer class="main-footer clearfix" role="contentinfo">
+			<ul class="footer_links">
+				<li class="webtalk-version-info">Webtalk Beta v2.0 &copy; 2013</li>
+				<li><a href="">About</a></li>
+				<li><a href="">Help Center</a></li>
+				<li><a href="">Affiliates</a></li>
+				<li><a href="">Legal</a></li>
+			</ul>
+		</footer>
+	</div>
+	</aside>
+</div>
+<footer class="repeating-footer" role="contentinfo">
+	<div class="footer_wrapper clearfix">
+		<ul class="footer-nav clearfix">
+			<li><a href="">About</a></li>
+			<li><a href="">Help Center</a></li>
+			<li><a href="">Affiliates</a></li>
+			<li><a href="">Legal</a></li>
+		</ul>
+		<p class="webtalk-version-info">Webtalk Beta v2.0 &copy; 2013</p>
+	</div>
+</footer>
+
+
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.8.2.min.js"><\/script>')</script>
+	<script src="js/modernizr-latest.js" type="text/javascript"></script>
+	<!--<script src="js/prefixfree.min.js" type="text/javascript"></script>-->
+	<script src="js/scripts.js" type="text/javascript"></script>
+	
+
+</body>
+</html>
